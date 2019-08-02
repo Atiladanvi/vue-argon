@@ -60,12 +60,14 @@
             <h3 class="h4 text-success font-weight-bold mb-4">Modals</h3>
             <!-- Modals -->
             <modals></modals>
-             Datepicker
             <h3 class="h4 text-success font-weight-bold mt-md mb-4">Datepicker</h3>
             <date-pickers></date-pickers>
             <!-- Tooltips and Popovers -->
             <h3 class="h4 text-success font-weight-bold mt-md mb-4">Tooltips &amp; Popovers</h3>
             <tooltips></tooltips>
+					  <!-- Widgets -->
+						<h3 class="h4 text-success font-weight-bold mt-md mb-4">Widgets</h3>
+						<widgets></widgets>
         </div>
     </section>
 </template>
@@ -79,9 +81,11 @@ import Images from "./JavascriptComponents/Images";
 import TabsSection from "./JavascriptComponents/TabsSection";
 import ProgressSection from "./JavascriptComponents/ProgressPagination";
 import Typography from "./JavascriptComponents/Typography";
+import Widgets from "./JavascriptComponents/Widgets";
 
 export default {
   components: {
+    Widgets,
     DatePickers,
     Images,
     Modals,
