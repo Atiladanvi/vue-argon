@@ -6,7 +6,7 @@
         v-for="(counter, index) in counters"
         :key="index"
         class="col-sm-12 mb-3 col-lg-4">
-        <widget
+        <counter
           decimal-separator=","
           :icon="counter.icon"
           :title="counter.title"
@@ -17,17 +17,17 @@
           :description="counter.description"
           :value="counter.value"
         >
-        </widget>
+        </counter>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  import Widget from "../../../components/Counter";
+  import Counter from "../../../components/Counter";
   export default {
     name: 'Widgets',
-    components: { Widget },
+    components: { Counter },
     data(){
       return {
         counters: [

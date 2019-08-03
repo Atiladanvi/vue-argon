@@ -64,7 +64,7 @@
 <p>Within the download you’ll find the following directories and files:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>argon/
-|-- vue-argon-design-system
+|-- src
     |-- App.vue
     |-- main.js
     |-- router.js
@@ -97,17 +97,31 @@
     |               |-- nucleo-icons.woff2
     |-- components
     |   |-- Badge.vue
+    |   |-- BaseAlert.vue
     |   |-- BaseButton.vue
     |   |-- BaseCheckbox.vue
+    |   |-- BaseDropdown.vue
     |   |-- BaseInput.vue
     |   |-- BaseNav.vue
+    |   |-- BasePagination.vue
+    |   |-- BaseProgress.vue
     |   |-- BaseRadio.vue
     |   |-- BaseSlider.vue
     |   |-- BaseSwitch.vue
     |   |-- Card.vue
     |   |-- CloseButton.vue
+    |   |-- Counter.vue
     |   |-- Icon.vue
+    |   |-- Modal.vue
     |   |-- NavbarToggleButton.vue
+    |   |-- Spinner.vue
+    |   |-- stringUtils.js
+    |   |-- Tabs
+    |       |-- PillsLayout.vue
+    |       |-- Tab.vue
+    |       |-- TabPanel.vue
+    |       |-- Tabs.vue
+    |       |-- TabsLayout.vue  
     |-- layout
     |   |-- AppFooter.vue
     |   |-- AppHeader.vue
@@ -132,6 +146,15 @@
             |-- Inputs.vue
             |-- JavascriptComponents.vue
             |-- Navigation.vue
+            |-- JavascriptComponents
+                |-- DatePickers.vue
+                |-- Images.vue
+                |-- Modals.vue
+                |-- ProgressPagination.vue
+                |-- TabsSection.vue
+                |-- Tooltips.vue
+                |-- Typography.vue
+                |-- Widgets.vue
 
 </code></pre></div></div>
 
