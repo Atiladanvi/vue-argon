@@ -1,7 +1,8 @@
 <template>
-  <div :style="sizeStyle()"
-       :class="bindClass(variant, type)"
-       role="status">
+  <div
+    :style="sizeStyle()"
+    :class="bindClass(variant, type)"
+    role="status">
     <span class="sr-only">{{ label }}</span>
   </div>
 </template>

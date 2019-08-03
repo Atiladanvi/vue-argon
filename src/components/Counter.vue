@@ -1,8 +1,8 @@
 <template>
-	<div :class="`bg-${type}`" class="card card-stats mb-4 mb-lg-0">
+	<div :class="`bg-${type}`" class="card card-stats">
 		<div class="card-body">
 			<div class="row">
-				<div class="col">
+				<div class="col-8">
 					<h5 :class="color(type)" class="card-title text-uppercase mb-0">{{ title }}</h5>
 					<span
 						:class="color(type)"
@@ -14,7 +14,7 @@
 							/>
 						</span>
 				</div>
-				<div class="col-auto">
+				<div class="col-4 text-right">
 					<div
 						v-if="icon.class"
 						:class="`${colorIcon(icon.background)} bg-${icon.background}`"
@@ -24,7 +24,7 @@
 					</div>
 				</div>
 			</div>
-			<p class="mt-3 mb-0 text-muted text-sm">
+			<p v-if="description" class="mb-0 text-muted text-sm">
 					<span
 						v-if="hint.value"
 						:class="`text-${hint.color}`"
@@ -45,25 +45,25 @@ export default {
 		AnimatedNumber
 	},
 	props:{
-    format: {
-			type: String,
-			default: ''
+	  format: {
+	    type: String,
+      default: ''
 		},
-		decimalSeparator: {
+    decimalSeparator: {
 			type: String,
 			default: '.'
 		},
 		title: {
 			type: String,
-			default: 'Title'
+			default: ''
 		},
 		description: {
 			type: String,
-			default: 'description'
+			default: ''
 		},
 		value: {
-			type: String,
-			default: '000,00'
+			type: Number,
+			default: 0
 		},
 		toFixe: {
 			type: Number,
@@ -84,7 +84,7 @@ export default {
 				return {
 					value: '',
 					icon: '',
-					toFixe: 2,
+					toFixe: 0,
 					format: '',
 					color: 'white'
 				}

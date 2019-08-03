@@ -35,7 +35,7 @@ export default {
 					title: 'Users',
 					type: 'secondary',
 					description: 'last hour',
-					value: '584',
+					value: 584,
 					toFixe: 0,
 					format:'%',
 					icon: {
@@ -51,10 +51,10 @@ export default {
 					}
 				},
 				{
-					title: 'Buket',
+					title: 'Bucket',
 					type: 'success',
 					description: 'last hour',
-					value: '5584',
+					value: 5584,
 					toFixe: 1,
 					format:'MB',
 					icon: {
@@ -73,14 +73,14 @@ export default {
 					title: 'Visits',
 					type: 'white',
 					description: 'last hour',
-					value: '584',
+					value: 584,
 					format:'%',
 					icon: {
 						class: 'ni ni-chart-bar-32',
 						background: 'dark'
 					},
 					hint: {
-						value: '10',
+						value: 10,
 						format:'%',
 						icon: 'fa fa-arrow-down',
 						color: 'danger'

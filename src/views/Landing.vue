@@ -117,8 +117,7 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
-                                  rounded></icon>
+                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow rounded></icon>
                             <h3>Awesome features</h3>
                             <p>The kit comes with three pre-built pages to help you get started faster. You can change
                                 the text and images and you're good to go.</p>
@@ -162,14 +161,14 @@
                                 <h4 class="display-3 font-weight-bold text-white">Design System</h4>
                                 <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
                                     the sea-ice then thaws every summer, and that process will continue whatever
-                                    happens.</p>
+                                    happens.
+                                </p>
                             </blockquote>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="pl-md-5">
                             <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
-
                             <h3>Our customers</h3>
                             <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
                                 Just make sure you enable them first via JavaScript.</p>
@@ -203,8 +202,7 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
-                                      rounded></icon>
+                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow rounded></icon>
                             </div>
                             <div class="pl-4">
                                 <h4 class="display-3 text-white">Modern Interface</h4>
@@ -215,8 +213,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
-                                          rounded></icon>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">Awesome Support</h5>
@@ -229,8 +226,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow
-                                          rounded></icon>
+                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-warning">Modular Components</h5>
@@ -265,12 +261,30 @@
                                     <small class="h6 text-muted">Web Developer</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="warning"
+                                      icon="fa fa-twitter"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="warning"
+                                      icon="fa fa-facebook"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="warning"
+                                      icon="fa fa-dribbble"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
@@ -286,12 +300,30 @@
                                     <small class="h6 text-muted">Marketing Strategist</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="primary"
+                                      icon="fa fa-twitter"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="primary"
+                                      icon="fa fa-facebook"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="primary"
+                                      icon="fa fa-dribbble"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
@@ -307,12 +339,30 @@
                                     <small class="h6 text-muted">UI/UX Designer</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="info"
+                                      icon="fa fa-twitter"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="info"
+                                      icon="fa fa-facebook"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="info"
+                                      icon="fa fa-dribbble"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
@@ -328,12 +378,30 @@
                                     <small class="h6 text-muted">Founder and CEO</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="success"
+                                      icon="fa fa-twitter"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="success"
+                                      icon="fa fa-facebook"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
+                                    <base-button
+                                      tag="a"
+                                      href="#"
+                                      type="success"
+                                      icon="fa fa-dribbble"
+                                      rounded
+                                      icon-only>
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
@@ -355,8 +423,11 @@
                                     worth billions of dollars, because I got the answers. I understand culture.</p>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
-                                <base-button tag="a" href="https://www.creative-tim.com/product/vue-argon-design-system"
-                                             type="white" block size="lg">
+                                <base-button
+                                  tag="a"
+                                  href="https://www.creative-tim.com/product/vue-argon-design-system"
+                                  type="white"
+                                  block size="lg">
                                     Download Vue
                                 </base-button>
                             </div>
@@ -420,10 +491,19 @@
                                         addon-left-icon="ni ni-email-83">
                             </base-input>
                             <base-input class="mb-4">
-                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
-                                              cols="80" placeholder="Type a message..."></textarea>
+                                <textarea
+                                  class="form-control form-control-alternative"
+                                  name="name"
+                                  rows="4"
+                                  cols="80"
+                                  placeholder="Type a message...">
+                                </textarea>
                             </base-input>
-                            <base-button type="default" round block size="lg">
+                            <base-button
+                              type="default"
+                              round
+                              block
+                              size="lg">
                                 Send Message
                             </base-button>
                         </card>

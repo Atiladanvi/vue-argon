@@ -18,7 +18,7 @@
           v-for="(variant, index) in variants"
           v-bind:key="index"
           label="Spinning"
-          size="md"
+          size="sm"
           :variant="variant"
           type="border"
         >
@@ -28,6 +28,7 @@
         <spinner
           v-for="(variant, index) in variants"
           v-bind:key="index"
+          size="sm"
           label="Spinning"
           :variant="variant"
           type="grow"
