@@ -6,34 +6,35 @@
         v-for="(counter, index) in counters"
         :key="index"
         class="col-sm-12 mb-3 col-lg-4">
-        <counter
+        <widget
           decimal-separator=","
           :icon="counter.icon"
           :title="counter.title"
           :format="counter.format"
           :hint="counter.hint"
           :to-fixe="counter.toFixe"
-          :type="counter.type"
+          :variant="counter.variant"
           :description="counter.description"
           :value="counter.value"
         >
-        </counter>
+        </widget>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  import Counter from "../../../components/Counter";
+  import Widget from '../../../components/Counter'
+
   export default {
     name: 'Widgets',
-    components: { Counter },
+    components: { Widget },
     data(){
       return {
         counters: [
           {
             title: 'Users',
-            type: 'secondary',
+            variant: 'secondary',
             description: 'last hour',
             value: 584,
             toFixe: 0,
@@ -51,8 +52,8 @@
             }
           },
           {
-            title: 'Bucket',
-            type: 'success',
+            title: 'Buket',
+            variant: 'success',
             description: 'last hour',
             value: 5584,
             toFixe: 1,
@@ -71,7 +72,7 @@
           },
           {
             title: 'Visits',
-            type: 'white',
+            variant: 'default',
             description: 'last hour',
             value: 584,
             format:'%',
@@ -89,5 +90,5 @@
         ]
       }
     }
-  };
+  }
 </script>
